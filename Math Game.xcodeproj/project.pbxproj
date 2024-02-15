@@ -52,6 +52,11 @@
 		E10B01ED2B7EAF730065596E /* Math Game */ = {
 			isa = PBXGroup;
 			children = (
+				E134E68A2B7EBA6400F88CC3 /* Constants */,
+				E134E6892B7EBA5700F88CC3 /* Extensions */,
+				E134E6882B7EBA4500F88CC3 /* Models */,
+				E134E6872B7EBA3700F88CC3 /* ViewModels */,
+				E134E6862B7EB98C00F88CC3 /* View */,
 				E10B01EE2B7EAF730065596E /* Math_GameApp.swift */,
 				E10B01F02B7EAF730065596E /* MainView.swift */,
 				E10B01F22B7EAF760065596E /* Assets.xcassets */,
@@ -67,6 +72,57 @@
 				E10B01F62B7EAF760065596E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E134E6862B7EB98C00F88CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E134E68C2B7EBADF00F88CC3 /* High Score View */,
+				E134E68B2B7EBA9700F88CC3 /* Addition Game View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E134E6872B7EBA3700F88CC3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E134E6882B7EBA4500F88CC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E134E6892B7EBA5700F88CC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E134E68A2B7EBA6400F88CC3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E134E68B2B7EBA9700F88CC3 /* Addition Game View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Addition Game View";
+			sourceTree = "<group>";
+		};
+		E134E68C2B7EBADF00F88CC3 /* High Score View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "High Score View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
