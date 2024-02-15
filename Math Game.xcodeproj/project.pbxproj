@@ -12,6 +12,8 @@
 		E10B01F32B7EAF760065596E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10B01F22B7EAF760065596E /* Assets.xcassets */; };
 		E10B01F72B7EAF760065596E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10B01F62B7EAF760065596E /* Preview Assets.xcassets */; };
 		E134E68E2B7EC06600F88CC3 /* Image Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E68D2B7EC06600F88CC3 /* Image Constants.swift */; };
+		E134E6902B7EC5C000F88CC3 /* Test Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E68F2B7EC5C000F88CC3 /* Test Localized.swift */; };
+		E134E6932B7EC8A300F88CC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E134E6952B7EC8A300F88CC3 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,15 @@
 		E10B01F42B7EAF760065596E /* Math_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Math_Game.entitlements; sourceTree = "<group>"; };
 		E10B01F62B7EAF760065596E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E134E68D2B7EC06600F88CC3 /* Image Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Constants.swift"; sourceTree = "<group>"; };
+		E134E68F2B7EC5C000F88CC3 /* Test Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Localized.swift"; sourceTree = "<group>"; };
+		E134E6942B7EC8A300F88CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E6962B7EC8AC00F88CC3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E6972B7EC8AD00F88CC3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E6982B7EC8AE00F88CC3 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E6992B7EC8B000F88CC3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E69A2B7EC8B100F88CC3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E134E69B2B7EC8B400F88CC3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E134E69C2B7EC8B500F88CC3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +75,7 @@
 				E10B01F22B7EAF760065596E /* Assets.xcassets */,
 				E10B01F42B7EAF760065596E /* Math_Game.entitlements */,
 				E10B01F52B7EAF760065596E /* Preview Content */,
+				E134E68F2B7EC5C000F88CC3 /* Test Localized.swift */,
 			);
 			path = "Math Game";
 			sourceTree = "<group>";
@@ -110,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				E134E68D2B7EC06600F88CC3 /* Image Constants.swift */,
+				E134E6952B7EC8A300F88CC3 /* Localizable.strings */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -170,6 +183,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				fr,
+				he,
+				it,
+				"pt-BR",
+				es,
+				tr,
 			);
 			mainGroup = E10B01E22B7EAF720065596E;
 			productRefGroup = E10B01EC2B7EAF730065596E /* Products */;
@@ -187,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10B01F72B7EAF760065596E /* Preview Assets.xcassets in Resources */,
+				E134E6932B7EC8A300F88CC3 /* Localizable.strings in Resources */,
 				E10B01F32B7EAF760065596E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,11 +221,30 @@
 			files = (
 				E134E68E2B7EC06600F88CC3 /* Image Constants.swift in Sources */,
 				E10B01F12B7EAF730065596E /* MainView.swift in Sources */,
+				E134E6902B7EC5C000F88CC3 /* Test Localized.swift in Sources */,
 				E10B01EF2B7EAF730065596E /* Math_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E134E6952B7EC8A300F88CC3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E134E6942B7EC8A300F88CC3 /* en */,
+				E134E6962B7EC8AC00F88CC3 /* ar */,
+				E134E6972B7EC8AD00F88CC3 /* fr */,
+				E134E6982B7EC8AE00F88CC3 /* he */,
+				E134E6992B7EC8B000F88CC3 /* it */,
+				E134E69A2B7EC8B100F88CC3 /* pt-BR */,
+				E134E69B2B7EC8B400F88CC3 /* es */,
+				E134E69C2B7EC8B500F88CC3 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E10B01F82B7EAF760065596E /* Debug */ = {

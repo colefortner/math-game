@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Math Game
+
+  Created by Cole Fortner on 2/15/24.
+  
+*/
+"Game Over" = "Game Over";
+"Score" = "Score";
+"Level" = "Level";
+"Game" = "Game";
+"High Scores" = "High Scores";
+"Rank" = "Rank";
+"Name" = "Name";
+"Save" = "Save";
