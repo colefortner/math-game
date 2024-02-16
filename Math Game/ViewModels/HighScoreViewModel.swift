@@ -44,5 +44,25 @@ class HighScoreViewModel: ObservableObject{
                 print( "Error fetching high scores: \(error.localizedDescription)")
             }
         }
+        
+        func saveHighScore(){
+            do {
+                try container
+                    .viewContext
+                    .save()
+                fetchHighScores()
+            } catch let error {
+                print( "Error saving high scores: \(error.localizedDescription)")
+            }
+        }
+        
+        func addHighScore( name: String, score: Int64) {
+            let entity = HighScoreEntity(
+                context: container.viewContext)
+            entity.name = name
+            entity.score = score
+            
+            saveHighScore()
+        }
     }
 }
