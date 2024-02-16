@@ -26,10 +26,18 @@ class HighScoreViewModel: ObservableObject{
                 }
             }
         
-            
+        // TODO:  Fetch data in descending order
         // Fetch data into highScores
         func fetchHighScores() {
-            // TODO:  Complete this
+            let request = NSFetchRequest<HighScoreEntity>(entityName: "HighScoreEntity")
+            
+            do {
+                highScores = try container
+                    .viewContext
+                    .fetch(request)
+            } catch let error {
+                print( "Error fetching high scores: \(error.localizedDescription)")
+            }
         }
     }
 }
