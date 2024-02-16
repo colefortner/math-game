@@ -64,5 +64,17 @@ class HighScoreViewModel: ObservableObject{
             
             saveHighScore()
         }
+        
+        func updateHighScoreName( entity: HighScoreEntity, name: String) {
+            entity.name = name
+            
+            saveHighScore()
+        }
+        
+        func deleteHighScore( entity: HighScoreEntity ) {
+            container.viewContext.delete(entity)
+            
+            saveHighScore()
+        }
     }
 }
