@@ -26,10 +26,15 @@ class HighScoreViewModel: ObservableObject{
                 }
             }
         
-        // TODO:  Fetch data in descending order
+
         // Fetch data into highScores
         func fetchHighScores() {
             let request = NSFetchRequest<HighScoreEntity>(entityName: "HighScoreEntity")
+            let sortDescriptor = NSSortDescriptor(
+                keyPath: \HighScoreEntity.score,
+                ascending: false)
+            request
+                .sortDescriptors = [sortDescriptor]
             
             do {
                 highScores = try container
