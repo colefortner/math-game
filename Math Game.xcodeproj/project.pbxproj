@@ -16,6 +16,7 @@
 		E134E6932B7EC8A300F88CC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E134E6952B7EC8A300F88CC3 /* Localizable.strings */; };
 		E134E69F2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E134E69D2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld */; };
 		E134E6A12B7EF4ED00F88CC3 /* HighScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A02B7EF4ED00F88CC3 /* HighScoreViewModel.swift */; };
+		E134E6A32B827A3200F88CC3 /* ProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A22B827A3200F88CC3 /* ProblemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E134E69C2B7EC8B500F88CC3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E134E69E2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HighScoresDataModel.xcdatamodel; sourceTree = "<group>"; };
 		E134E6A02B7EF4ED00F88CC3 /* HighScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewModel.swift; sourceTree = "<group>"; };
+		E134E6A22B827A3200F88CC3 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				E134E69D2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld */,
+				E134E6A22B827A3200F88CC3 /* ProblemModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E134E68E2B7EC06600F88CC3 /* Image Constants.swift in Sources */,
+				E134E6A32B827A3200F88CC3 /* ProblemModel.swift in Sources */,
 				E134E69F2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld in Sources */,
 				E10B01F12B7EAF730065596E /* MainView.swift in Sources */,
 				E134E6902B7EC5C000F88CC3 /* Test Localized.swift in Sources */,
