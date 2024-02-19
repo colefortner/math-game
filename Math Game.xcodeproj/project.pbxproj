@@ -19,6 +19,7 @@
 		E134E6A32B827A3200F88CC3 /* ProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A22B827A3200F88CC3 /* ProblemModel.swift */; };
 		E134E6A52B82A77C00F88CC3 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A42B82A77C00F88CC3 /* GameModel.swift */; };
 		E19F96562B82E26B00B850B7 /* AdditionGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F96552B82E26B00B850B7 /* AdditionGameViewModel.swift */; };
+		E19F96592B82F01C00B850B7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F96582B82F01C00B850B7 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E134E6A22B827A3200F88CC3 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
 		E134E6A42B82A77C00F88CC3 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		E19F96552B82E26B00B850B7 /* AdditionGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionGameViewModel.swift; sourceTree = "<group>"; };
+		E19F96582B82F01C00B850B7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		E134E6862B7EB98C00F88CC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E19F96572B82EF6200B850B7 /* Background Views */,
 				E134E68C2B7EBADF00F88CC3 /* High Score View */,
 				E134E68B2B7EBA9700F88CC3 /* Addition Game View */,
 			);
@@ -154,6 +157,14 @@
 			children = (
 			);
 			path = "High Score View";
+			sourceTree = "<group>";
+		};
+		E19F96572B82EF6200B850B7 /* Background Views */ = {
+			isa = PBXGroup;
+			children = (
+				E19F96582B82F01C00B850B7 /* BackgroundView.swift */,
+			);
+			path = "Background Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19F96592B82F01C00B850B7 /* BackgroundView.swift in Sources */,
 				E134E68E2B7EC06600F88CC3 /* Image Constants.swift in Sources */,
 				E134E6A32B827A3200F88CC3 /* ProblemModel.swift in Sources */,
 				E134E69F2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld in Sources */,
