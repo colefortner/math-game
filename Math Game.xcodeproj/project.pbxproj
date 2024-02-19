@@ -18,6 +18,7 @@
 		E134E6A12B7EF4ED00F88CC3 /* HighScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A02B7EF4ED00F88CC3 /* HighScoreViewModel.swift */; };
 		E134E6A32B827A3200F88CC3 /* ProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A22B827A3200F88CC3 /* ProblemModel.swift */; };
 		E134E6A52B82A77C00F88CC3 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134E6A42B82A77C00F88CC3 /* GameModel.swift */; };
+		E19F96562B82E26B00B850B7 /* AdditionGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F96552B82E26B00B850B7 /* AdditionGameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E134E6A02B7EF4ED00F88CC3 /* HighScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewModel.swift; sourceTree = "<group>"; };
 		E134E6A22B827A3200F88CC3 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
 		E134E6A42B82A77C00F88CC3 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		E19F96552B82E26B00B850B7 /* AdditionGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionGameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				E134E6A02B7EF4ED00F88CC3 /* HighScoreViewModel.swift */,
+				E19F96552B82E26B00B850B7 /* AdditionGameViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				E134E69F2B7EF2C000F88CC3 /* HighScoresDataModel.xcdatamodeld in Sources */,
 				E10B01F12B7EAF730065596E /* MainView.swift in Sources */,
 				E134E6902B7EC5C000F88CC3 /* Test Localized.swift in Sources */,
+				E19F96562B82E26B00B850B7 /* AdditionGameViewModel.swift in Sources */,
 				E134E6A52B82A77C00F88CC3 /* GameModel.swift in Sources */,
 				E10B01EF2B7EAF730065596E /* Math_GameApp.swift in Sources */,
 				E134E6A12B7EF4ED00F88CC3 /* HighScoreViewModel.swift in Sources */,
